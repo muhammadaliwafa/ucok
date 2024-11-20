@@ -24,9 +24,10 @@ cat ~/.ssh/id_rsa.pub // melihat ssh-rsa yang sudah dibuat
 git reset
 git diff
 git reset HEAD~1
-git reset --hard HEAD ~1
+git reset --hard HEAD ~1// undo untuk local
 git add .
 git revert [nomor komit] // 
 
 git push --force //maksa push walau g sinkron
 git log --graph --oneline --all
+
