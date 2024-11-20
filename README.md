@@ -11,6 +11,3 @@ ali
 
 sdhskd
 bentol 1
-
-
-anjay
