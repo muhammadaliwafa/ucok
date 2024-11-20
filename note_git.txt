@@ -31,3 +31,11 @@ git revert [nomor komit] //
 git push --force //maksa push walau g sinkron
 git log --graph --oneline --all
 
+
+cara merge:
+git fetch origin
+git branch -a
+git merge origin main
+git add .
+git commit -m "beda dikit"
+git push -u origin main
