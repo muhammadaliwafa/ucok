@@ -49,4 +49,4 @@ git add nama-file
 git commit -m "Menggabungkan branch lain ke main"
 git push origin main
 
-tambah lagi kalo ada yang baru
+tambah lagi jangan lupa
