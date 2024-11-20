@@ -39,3 +39,12 @@ git merge origin main
 git add .
 git commit -m "beda dikit"
 git push -u origin main
+
+cara merge dari branch lain ke branch main:
+git checkout main //pastikan sedang di branch main
+git fetch origin
+git pull origin main //pastikan branch main paling update *ga wajib
+git merge lain //tangani konflik jika ada
+git add nama-file
+git commit -m "Menggabungkan branch lain ke main"
+git push origin main
